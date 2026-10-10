@@ -1,11 +1,10 @@
-<div align="center">
-
-# Hi, I'm Aman Raj 👋
-
-I solve problems with code, train ML models on real data, and build web apps.<br>
-Competitive programming · Machine learning · Web development
-
-</div>
+<p align="center">
+💫 About Me:<br>
+Aspiring software engineer<br>
+Interested in competitive programming<br>
+Machine learning enthusiast<br>
+Problem solver
+</p>
 
 <h2 align="center">🌐 Socials</h2>
 
