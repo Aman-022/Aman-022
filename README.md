@@ -1,9 +1,10 @@
-  <h3 align="center">✨ About Me</h3>
+ <h3 align="center">✨ About Me</h3>
 
+<p align="center">
   Aspiring Software Engineer<br>
   Machine Learning Enthusiast<br>
   Web Development Enthusiast<br>
-   Problem Solver<br>
+  Problem Solver
 </p>
 
 <h2 align="center">🌐 Socials</h2>
