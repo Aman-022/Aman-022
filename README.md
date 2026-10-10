@@ -1,9 +1,10 @@
 <p align="center">
-💫 About Me:<br>
-Aspiring software engineer<br>
-Interested in competitive programming<br>
-Machine learning enthusiast<br>
-Problem solver
+  ✨ <b>About Me</b><br><br>
+  Aspiring Software Engineer<br>
+  Problem Solver<br>
+  Machine Learning Enthusiast<br>
+  Web Development Enthusiast<br><br>
+  Building, Learning & Growing
 </p>
 
 <h2 align="center">🌐 Socials</h2>
@@ -11,7 +12,7 @@ Problem solver
 <p align="center">
   <a href="https://www.linkedin.com/in/amanraj3745/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://leetcode.com/u/deadlock022/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-  <a href="https://codeforces.com/profile/aman_raj022"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
+  <a href="mailto:officialaman180@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 <h2 align="center">💻 Tech Stack</h2>
