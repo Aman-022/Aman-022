@@ -1,22 +1,23 @@
+<div align="center">
+
 # Hi, I'm Aman Raj 👋
 
-I enjoy solving problems with code. I train ML models on real data, practice DSA and competitive programming, and build web apps with JavaScript and MongoDB. Now I'm going deeper into backend development.
+I solve problems with code, train ML models on real data, and build web apps.<br>
+Competitive programming · Machine learning · Web development
 
-<p>
-  <a href="https://www.linkedin.com/in/amanraj3745/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/deadlock022/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" /></a>
-  <a href="https://codeforces.com/profile/aman_raj022"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" /></a>
+</div>
+
+<h2 align="center">🌐 Socials</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/amanraj3745/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/deadlock022/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+  <a href="https://codeforces.com/profile/aman_raj022"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
 </p>
 
-## Focus
+<h2 align="center">💻 Tech Stack</h2>
 
-- 🧩 **Problem solving:** DSA and competitive programming in C++ and Python
-- 🧠 **Machine learning:** data analysis and modeling with NumPy, Pandas and scikit-learn
-- 🌐 **Web and backend:** JavaScript, HTML, CSS and MongoDB
-
-## Tech Stack
-
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -29,4 +30,18 @@ I enjoy solving problems with code. I train ML models on real data, practice DSA
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+</p>
+
+<h2 align="center">📊 GitHub Stats</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Aman-022&show_icons=true&theme=dark&hide_border=false&disable_animations=true" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Aman-022&theme=dark&disable_animations=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aman-022&layout=compact&theme=dark&disable_animations=true" />
 </p>
