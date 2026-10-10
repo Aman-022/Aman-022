@@ -1,10 +1,9 @@
-<p align="center">
-  ✨ <b>About Me</b><br><br>
+  <h3 align="center">✨ About Me</h3>
+
   Aspiring Software Engineer<br>
   Machine Learning Enthusiast<br>
   Web Development Enthusiast<br>
    Problem Solver<br>
-  Building, Learning & Growing
 </p>
 
 <h2 align="center">🌐 Socials</h2>
@@ -17,10 +16,8 @@
 
 <h2 align="center">💻 Tech Stack</h2>
 
-<h2 align="center">🛠️ Tech Stack</h2>
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,py,js,html,css,sklearn,mongodb,git,vscode&perline=5" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,js,html,css,sklearn,mysql,mongodb,arduino,git,vscode&perline=6" />
 </p>
 
 <h2 align="center">📊 GitHub Stats</h2>
