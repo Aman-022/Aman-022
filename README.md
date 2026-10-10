@@ -1,9 +1,9 @@
 <p align="center">
   ✨ <b>About Me</b><br><br>
   Aspiring Software Engineer<br>
-  Problem Solver<br>
   Machine Learning Enthusiast<br>
-  Web Development Enthusiast<br><br>
+  Web Development Enthusiast<br>
+   Problem Solver<br>
   Building, Learning & Growing
 </p>
 
@@ -17,19 +17,10 @@
 
 <h2 align="center">💻 Tech Stack</h2>
 
+<h2 align="center">🛠️ Tech Stack</h2>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,js,html,css,sklearn,mongodb,git,vscode&perline=5" />
 </p>
 
 <h2 align="center">📊 GitHub Stats</h2>
