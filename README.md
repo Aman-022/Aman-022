@@ -50,16 +50,6 @@
 
 ---
 
-<h2 align="center">🟩 Contribution Graph</h2>
-
-<p align="center">
-  <a href="https://github.com/Aman-022">
-    <img src="https://ghchart.rshah.org/216e39/Aman-022" alt="GitHub Contribution Graph" width="85%" />
-  </a>
-</p>
-
----
-
 <p align="center">
   <i>Consistency over perfection.</i>
 </p>
