@@ -1,4 +1,3 @@
-
 <h3 align="center">✨ About Me</h3>
 
 <p align="center">
@@ -51,10 +50,12 @@
 
 ---
 
-<h2 align="center">🧊 3D Contribution Graph</h2>
+<h2 align="center">🟩 Contribution Graph</h2>
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D GitHub Contribution Graph" />
+  <a href="https://github.com/Aman-022">
+    <img src="https://ghchart.rshah.org/216e39/Aman-022" alt="GitHub Contribution Graph" width="85%" />
+  </a>
 </p>
 
 ---
