@@ -39,7 +39,6 @@
 </p>
 
 ---
-
 <h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
