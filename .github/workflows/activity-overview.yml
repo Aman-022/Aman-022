@@ -1,0 +1,61 @@
+name: Activity Overview Chart
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'EOF'
+          import os, json, urllib.request
+          login = os.environ["USERNAME"]
+          token = os.environ["GITHUB_TOKEN"]
+          q = "query($l:String!){user(login:$l){contributionsCollection{totalCommitContributions totalIssueContributions totalPullRequestContributions totalPullRequestReviewContributions}}}"
+          req = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=json.dumps({"query": q, "variables": {"l": login}}).encode(),
+              headers={"Authorization": "bearer " + token, "Content-Type": "application/json"},
+          )
+          c = json.load(urllib.request.urlopen(req))["data"]["user"]["contributionsCollection"]
+          commits = c["totalCommitContributions"]
+          issues = c["totalIssueContributions"]
+          prs = c["totalPullRequestContributions"]
+          reviews = c["totalPullRequestReviewContributions"]
+          total = max(commits + issues + prs + reviews, 1)
+          pc, pi, pp, pr = [round(100 * x / total) for x in (commits, issues, prs, reviews)]
+          cx, cy, R = 200, 150, 90
+          def s(p): return R * max(p, 3) / 100
+          pts = f"{cx},{cy - s(pr)} {cx + s(pi)},{cy} {cx},{cy + s(pp)} {cx - s(pc)},{cy}"
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14">
+          <line x1="{cx}" y1="{cy - R}" x2="{cx}" y2="{cy + R}" stroke="#3fb950" stroke-width="2"/>
+          <line x1="{cx - R - 20}" y1="{cy}" x2="{cx + R + 20}" y2="{cy}" stroke="#3fb950" stroke-width="2"/>
+          <polygon points="{pts}" fill="#2ea043" fill-opacity="0.6" stroke="#3fb950" stroke-width="2"/>
+          <text x="{cx}" y="{cy - R - 12}" fill="#8b949e" text-anchor="middle">Code review</text>
+          <text x="{cx}" y="{cy + R + 22}" fill="#8b949e" text-anchor="middle">{pp}%</text>
+          <text x="{cx}" y="{cy + R + 40}" fill="#8b949e" text-anchor="middle">Pull requests</text>
+          <text x="{cx - R - 28}" y="{cy - 4}" fill="#8b949e" text-anchor="end">{pc}%</text>
+          <text x="{cx - R - 28}" y="{cy + 14}" fill="#8b949e" text-anchor="end">Commits</text>
+          <text x="{cx + R + 28}" y="{cy - 4}" fill="#8b949e" text-anchor="start">{pi}%</text>
+          <text x="{cx + R + 28}" y="{cy + 14}" fill="#8b949e" text-anchor="start">Issues</text>
+          </svg>'''
+          open("activity-overview.svg", "w").write(svg)
+          EOF
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activity-overview.svg
+          git commit -m "update activity overview" || exit 0
+          git push
