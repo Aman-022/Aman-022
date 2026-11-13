@@ -40,11 +40,8 @@
 
 ---
 <h2 align="center">📈 Contribution Activity</h2>
-
 <p align="center">
-  <a href="https://github.com/Aman-022">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aman-022&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" />
-  </a>
+  <img src="./activity-overview.svg" alt="Activity Overview" width="50%" />
 </p>
 
 ---
